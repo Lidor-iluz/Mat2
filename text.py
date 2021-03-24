@@ -28,10 +28,10 @@ def countword(File):
             revword(z)
             if first==revword(z):
                 count+=1
-    print("Count of word=",count)
+    return count
     
     
-countword(File) 
+
 
 
 
