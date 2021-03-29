@@ -4,7 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-File=open("/Users/lidoriluz/Desktop/matalot/matala2/text.txt")
+File=open("/Users/lidoriluz/Desktop/matalot/matala2/test.txt")
 
 
 def revword(word:str):
@@ -13,7 +13,7 @@ def revword(word:str):
     return word
         
  
-def countword(File):
+def countword():
     for line in File:
         line = line.strip("\n")
         first=line
