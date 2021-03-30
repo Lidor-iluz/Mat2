@@ -5,7 +5,7 @@ def revword(word:str):
         
  
 def countword():
-    File=open("text.txt")
+    File=open("text.txt",'r')
     for line in File:
         line = line.strip("\n")
         first=line
