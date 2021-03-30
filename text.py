@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
-
-
 def revword(word:str):
     word=word[::-1]
     word=word.lower()
@@ -24,17 +15,10 @@ def countword():
     count=1
     for line in File:
         line = line.strip("\n")
+        if line==first:continue
         words = line.split()
         for z in words:
             revword(z)
             if first==revword(z):
                 count+=1
     return count
-    
-    
-
-
-
-
-    
-
